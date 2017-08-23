@@ -41,5 +41,6 @@ def createSamples(posDir, nSamples):
 
 
 
-
+def thePrinter():
+    print "Hey"
 

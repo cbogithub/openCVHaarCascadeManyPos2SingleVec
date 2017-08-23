@@ -12,6 +12,7 @@ Place all your positives images into one folder
 
 Step 2
 ======
+Open python console and import sampleCreator
 Run sampleCreator.createInfoDirs(*pathToPositiveImagesFolder*)
 This creates a bunch of folders that will hold your newly created samples
 
