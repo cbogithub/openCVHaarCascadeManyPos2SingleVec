@@ -1,6 +1,6 @@
 # openCVHaarCascadeManyPos2SingleVec
-###This tutorial assumes you took the same steps in sentdex's tutorial, Tutorial found [here](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/)
-###have already created your negative images, and named all directories and files the same as in the tutorial.
+### This tutorial assumes you took the same steps in sentdex's tutorial, Tutorial found [here](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/)
+### have already created your negative images, and named all directories and files the same as in the tutorial.
 
 If you were following sentDex's tutorial on training your own Haar cascade you may have noticed that he uses only one
 positive image and created a created a bunch of samples with that one image.  If you want to use more than one positive
