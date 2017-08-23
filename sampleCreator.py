@@ -23,8 +23,6 @@ def moveVecFiles():
 
 def createSamples(posDir, nSamples):
 
-    infoNum = 0
-
     for n, pos in enumerate(os.listdir(posDir)):
         infoBashCommand = "opencv_createsamples -img {}/{} -bg bg.txt -info info{}/info.lst -pngoutput info -maxxangle 0.5 -maxyangle 0.5 -maxzangle 0.5 -num {}".format(posDir, pos, str(n), nSamples)
         print infoBashCommand
@@ -45,10 +43,3 @@ def createSamples(posDir, nSamples):
 
 
 
-# process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
-# output, error = process.communicate()
-
-# print output
-
-# createInfoDirs()
-# createSamples()
