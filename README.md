@@ -27,7 +27,7 @@ Step 4
 ======
 Download this github Project [wulfebw/mergevec](https://github.com/wulfebw/mergevec)
 Follow the directions on their readme running this command: "python mergevec.py -v vecDirectory -o your_output_filename.vec"
-The resulting .vec file is then used in the "opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 1800 -numNeg 900 -numStages 10 -w 20 -h 20"
+The resulting .vec file is then used in the "opencv_traincascade -data data -vec *new .vec file here* -bg bg.txt -numPos 1800 -numNeg 900 -numStages 10 -w 20 -h 20"
 command
 
 
